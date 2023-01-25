@@ -1,0 +1,136 @@
+nav {
+    background-color: #0099ff;
+    text-align: center;
+    }
+    
+    .navContainer {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    justify-content: center;
+    }
+    
+    .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    }
+    
+    .navLinks {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .navLinks a {
+    color: white;
+    text-decoration: none;
+    padding: 0 2%;
+    }
+    
+    .navLinks a:hover {
+    background-color: #33b5ff;
+    border-radius: 5px;
+    }
+
+.myWork {
+    padding: 2%;
+    }
+    
+    .workGrid {
+        display: grid;
+        grid-template-areas:
+        "project1 project2"
+        "project1 project2";
+    }
+    
+    .workGrid div {
+    width: 50%;
+    margin: 1%;
+    padding: 1%;
+    }
+    
+    .workGrid img {
+    width: 100%;
+    align-items: center;
+    }
+    
+    h3 {
+    text-align: center;
+    margin-top: 2%;
+    }
+    
+    button {
+    background-color: #0099ff;
+    color: white;
+    padding: 1%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1%;
+    }
+    
+    button:hover {
+    background-color: #33b5ff;
+    }
+
+    .mySkills {
+        padding: 2%;
+        }
+        
+        .flexContainer {
+        display: flex;
+        }
+        
+        .flexContainer div {
+        width: 33%;
+        margin: 1%;
+        padding: 1%;
+        text-align: center;
+        }
+        
+        .flexContainer img {
+        width: 60%;
+        margin: 0 auto;
+        }
+        
+        h1 {
+        text-align: center;
+        margin-bottom: 2%;
+        }
+
+        h3 {
+        text-align: left;
+        margin-bottom: 2%;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 2%;
+            }
+            
+            .footerContainer {
+            display: flex;
+            justify-content: space-between;
+            }
+            
+            .footerInfo, .footerLinks, .footerContact {
+            width: 30%;
+            }
+            
+            .footerInfo h4, .footerLinks h4, .footerContact h4 {
+            margin-bottom: 2%;
+            }
+            
+            .footerLinks ul {
+            list-style: none;
+            }
+            
+            .footerLinks a {
+            color: white;
+            text-decoration: none;
+            }
+            
+            .copyright {
+            text-align: center;
+            }
